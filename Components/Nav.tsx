@@ -18,11 +18,11 @@ const Nav = ({ openNav }: Props) => {
                 setNavSticky(false);
             }
 };
-
+window.addEventListener("scroll", handler)
     }, [])
 
     return (
-        <div className='fixed w-[100%] z-[1000] bg-gray-800'>
+        <div className={`fixed w-[100%] z-[1000] bg-gray-800`}>
             <div className='flex items-center justify-between w-[80%] mx-auto h-[12vh]'>
                 <div className='font-serif font-extrabold text-white text-[22px]'>
                     <span className='text-[30px] text-yellow-400'>Big</span>
