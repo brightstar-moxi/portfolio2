@@ -1,3 +1,4 @@
+import { XMarkIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 
 const NavMobile = () => {
@@ -11,6 +12,7 @@ const NavMobile = () => {
                 <li className='nav_link  text-[25px] sm:text-[30px]'><a href="#">Services</a></li>
                 <li className='nav_link  text-[25px] sm:text-[30px]'><a href="#">Blog</a></li>
                 <li className='nav_link  text-[25px] sm:text-[30px]'><a href="#">Contact</a></li>
+            <XMarkIcon className='absolute top-[1.4rem] right-[1.4rem] w-[2.2rem] text-white'/>
             </ul>
         </div>
     )
