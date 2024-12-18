@@ -1,3 +1,4 @@
+import { Bars3CenterLeftIcon } from '@heroicons/react/20/solid';
 import React from 'react';
 
 const Nav = () => {
@@ -9,12 +10,13 @@ const Nav = () => {
         Coder
        </div>
        <ul className='md:flex hidden items-center space-x-10'>
-        <li><a className='nav_link' href='#'></a>Home</li>
-        <li><a className='nav_link' href='#'></a>About</li>
-        <li><a className='nav_link' href='#'></a>Service</li>
-        <li><a className='nav_link' href='#'></a>Blog</li>
-        <li><a className='nav_link' href='#'></a>Contact</li>
+        <li className='nav_link'><a  href='#'></a>Home</li>
+        <li className='nav_link'><a  href='#'></a>About</li>
+        <li className='nav_link'><a  href='#'></a>Service</li>
+        <li className='nav_link'><a  href='#'></a>Blog</li>
+        <li className='nav_link'><a  href='#'></a>Contact</li>
        </ul>
+       <Bars3CenterLeftIcon className='w-[2.3rem] md:hidden h-[2.3rem] text-white rotate-180'/>
               </div>
         </div>
   )
