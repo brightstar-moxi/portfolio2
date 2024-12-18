@@ -5,12 +5,14 @@ import React, { useState } from 'react';
 
 const HomePage = () => {
 
-const [showNav, setShowNav] =  useState(false)
+  const [showNav, setShowNav] = useState(false);
+  const showNavHandler = () => setShowNav(true);
+  const closeNavHandler = () => setShowNav(false);
 
   return (
     <div className='overflow-hhidden'>
-      <NavMobile/>
-   <Nav/>
+      <NavMobile showNav={showNav} closeNav={closeNavHandler} />
+      <Nav openNav={showNavHandler}/>
     </div>
   )
 }
