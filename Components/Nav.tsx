@@ -14,15 +14,17 @@ const Nav = ({ openNav }: Props) => {
             if (window.scrollY >= 90) {
                 setNavSticky(true);
             }
-            if (window.scrollY <=90){
+            if (window.scrollY <= 90) {
                 setNavSticky(false);
             }
-};
-window.addEventListener("scroll", handler)
-    }, [])
+        };
+        window.addEventListener("scroll", handler)
+    }, []);
+
+    const stickyStyle = navSticky?'bg-[#212428] shadow-gray-900 shadow-sm':'';
 
     return (
-        <div className={`fixed w-[100%] z-[1000] bg-gray-800`}>
+        <div className={`fixed w-[100%] ${stickyStyle} z-[1000] bg-gray-800`}>
             <div className='flex items-center justify-between w-[80%] mx-auto h-[12vh]'>
                 <div className='font-serif font-extrabold text-white text-[22px]'>
                     <span className='text-[30px] text-yellow-400'>Big</span>
