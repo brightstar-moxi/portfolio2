@@ -14,12 +14,13 @@ const Hero = () => {
                                <TypeWriteEffect/> 
                               
                         </div>
-                        <p className=''>
+                        <p className='mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]'>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, 
                             natus perferendis. Veritatis exercitationem voluptatum molestias in 
                             nam quis aut neque animi ratione, cumque perferendis laudantium porro 
                             magni. Eligendi, harum unde?
                         </p>
+                        <div></div>
                     </div>
                 </div>
             </div>
