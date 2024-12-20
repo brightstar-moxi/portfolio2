@@ -1,5 +1,6 @@
 import React from 'react'
 import TypeWriteEffect from './TypeWriteEffect'
+import Image from 'next/image'
 
 const Hero = () => {
     return (
@@ -34,6 +35,14 @@ const Hero = () => {
                                 <span className='relative z-10'>Download CV</span>
                               </button>
                         </div>
+                    </div>
+                    <div className='hidden md:block'>
+                        <Image 
+                        src="/image/aqw.png"
+                         alt='hero' 
+                         width={600} 
+                         height={600} 
+                         className='object-contain'/>
                     </div>
                 </div>
             </div>
