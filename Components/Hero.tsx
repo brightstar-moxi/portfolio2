@@ -8,7 +8,8 @@ const Hero = () => {
                     <div>
                         <h1 className='text-[#c4cfde] mb-[1.3rem]'>WELCOME TO BRIGHTSTAR WORLD</h1>
                     <div>
-                        <h1 className='xl-text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.4rem] text-white'>Hi, I'm</h1>
+                        <h1 className='xl-text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.4rem] text-white'>
+                            Hi, I'm <span className='text-yellow-300'>Brightstar</span></h1>
                     </div>
                     </div>
                 </div>
