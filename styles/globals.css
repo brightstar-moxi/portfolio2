@@ -17,4 +17,7 @@
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 }
+.heading_mini{
+  @apply text-[17px]
+}
 }
