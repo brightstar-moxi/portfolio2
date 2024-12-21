@@ -14,7 +14,7 @@ const About = () => {
            </p>
            <div className='mt-[2rem] space-y-3'>
             <div className='flex items-end space-x-4'>
-        <CheckIcon/>
+        <CheckIcon className='w-[2rem] h-[2rem] text-yellow-600'/>
         <p>Frontend Development</p>
             </div>
            </div>
