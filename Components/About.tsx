@@ -13,9 +13,19 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dicta reprehenderit unde praesentium perferendis commodi? Maiores necessitatibus accusantium molestias ea atque. Amet debitis similique ex cupiditate, magnam quisquam tempore delectus!
            </p>
            <div className='mt-[2rem] space-y-3'>
-            <div className='flex items-end space-x-4'>
+            <div className='flex items-center space-x-4'>
         <CheckIcon className='w-[2rem] h-[2rem] text-yellow-600'/>
-        <p>Frontend Development</p>
+        <p className='text-[18px] text-white'>Frontend Development</p>
+            </div>
+            <div className='flex items-center space-x-4'>
+        <CheckIcon className='w-[2rem] h-[2rem] text-yellow-600'/>
+        <p className='text-[18px] text-white'>Backend Development</p>
+            </div> <div className='flex items-center space-x-4'>
+        <CheckIcon className='w-[2rem] h-[2rem] text-yellow-600'/>
+        <p className='text-[18px] text-white'>Web Development</p>
+            </div> <div className='flex items-center space-x-4'>
+        <CheckIcon className='w-[2rem] h-[2rem] text-yellow-600'/>
+        <p className='text-[18px] text-white'>MERN Development</p>
             </div>
            </div>
             </div>
