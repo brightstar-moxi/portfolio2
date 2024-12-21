@@ -34,8 +34,20 @@ const About = () => {
                 <div className='lg:ml-auto'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-[2rem]'>
                         <div className='p-6 text-center bg-yellow-500'>
-                            <p>2</p>
-                            <p>Years experience</p>
+                            <p className='text-[50px] text-black font-bold'>3</p>
+                            <p className='text-[20px] text-black font-[600]'>Years experience</p>
+                        </div>
+                        <div className='p-6 text-center bg-yellow-500'>
+                            <p className='text-[50px] text-black font-bold'>200+</p>
+                            <p className='text-[20px] text-black font-[600]'>Happy Client</p>
+                        </div>
+                        <div className='p-6 text-center bg-yellow-500'>
+                            <p className='text-[50px] text-black font-bold'>300+</p>
+                            <p className='text-[20px] text-black font-[600]'>Project Done</p>
+                        </div>
+                        <div className='p-6 text-center bg-yellow-500'>
+                            <p className='text-[50px] text-black font-bold'>3+</p>
+                            <p className='text-[20px] text-black font-[600]'>Award</p>
                         </div>
                     </div>
                 </div>
