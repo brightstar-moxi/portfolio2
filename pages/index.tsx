@@ -2,6 +2,7 @@ import About from '@/Components/About';
 import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav'
 import NavMobile from '@/Components/NavMobile';
+import Services from '@/Components/Services';
 import React, { useState } from 'react';
 
 
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Nav openNav={showNavHandler}/>
       <Hero/>
       <About/>
+      <Services/>
     </div>
   )
 }
