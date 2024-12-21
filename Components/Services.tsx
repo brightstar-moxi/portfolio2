@@ -1,4 +1,5 @@
 import React from 'react'
+import ServicesCard from './ServicesCard'
 
 const Services = () => {
   return (
@@ -8,7 +9,9 @@ const Services = () => {
             <h1 className='heading_primary'>My Special <span className='text-yellow-400'>Services</span> for You</h1>
         </div>
         <div className='pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center'>
-            <div></div>
+            <div>
+                <ServicesCard title='React Website' num="01"/>
+            </div>
         </div>
     </div>
   )
