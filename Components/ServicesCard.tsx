@@ -25,7 +25,12 @@ const ServicesCard = ({ num, title }: Props) => {
             <h1 className='text-[25px] relative z-[1] text-white mt-[1rem]'>
                 {title}
                 </h1>
-                <p></p>
+                <p className='text-white text-[15px] opacity-60 mt-[0.8rem]'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellendus sunt, distinctio sapiente delectus dolores ullam saepe nobis et
+                     atque quasi reiciendis architecto voluptatem eaque facilis asperiores fuga esse nihil laboriosam.
+                     </p>
+                     <p className='text-white text-[1.6rem] font-bold absolute top-3 right-4'>{num}</p>
          </div>
     )
 }
