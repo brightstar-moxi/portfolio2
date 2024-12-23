@@ -2,7 +2,9 @@ import { BugAntIcon, CodeBracketIcon, CommandLineIcon, CursorArrowRaysIcon, Rock
 import React from 'react';
 
 interface Props {
-    title: string; num: string;
+    title: string; 
+    num: string;
+    page:string;
 
 }
 
@@ -15,7 +17,7 @@ const iconMapping = {
     "06": BugAntIcon
 }
 
-const ServicesCard = ({ num, title }: Props) => {
+const ServicesCard = ({ num, title, page }: Props) => {
     const IconComponent =
     (iconMapping as Record<string,React.ElementType>)[num] || CommandLineIcon;
     return (
@@ -26,9 +28,7 @@ const ServicesCard = ({ num, title }: Props) => {
                 {title}
                 </h1>
                 <p className='text-white text-[15px] opacity-60 mt-[0.8rem]'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Repellendus sunt, distinctio sapiente delectus dolores ullam saepe nobis et
-                     atque quasi reiciendis architecto voluptatem eaque facilis asperiores fuga esse nihil laboriosam.
+                    {page}
                      </p>
                      <p className='text-white text-[1.6rem] font-bold absolute top-3 right-4'>{num}</p>
          </div>

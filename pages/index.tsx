@@ -3,6 +3,7 @@ import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav'
 import NavMobile from '@/Components/NavMobile';
 import Services from '@/Components/Services';
+import Skills from '@/Components/Skills';
 import React, { useState } from 'react';
 
 
@@ -19,6 +20,7 @@ const HomePage = () => {
       <Hero/>
       <About/>
       <Services/>
+      <Skills/>
     </div>
   )
 }

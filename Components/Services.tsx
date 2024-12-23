@@ -10,22 +10,22 @@ const Services = () => {
             </div>
             <div className='pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center'>
                 <div>
-                    <ServicesCard title='React Website' num="01" />
+                    <ServicesCard title='React Website' num="01" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 1' />
                 </div>
                 <div>
-                    <ServicesCard title='Next JS Website' num="02" />
+                    <ServicesCard title='Next JS Website' num="02" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 2' />
                 </div>
                 <div>
-                    <ServicesCard title='Fullstack Website' num="03" />
+                    <ServicesCard title='Fullstack Website' num="03" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 3' />
                 </div>
                 <div>
-                    <ServicesCard title=' Node JS Api' num="04" />
+                    <ServicesCard title=' Node JS Api' num="04" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 4' />
                 </div>
                 <div>
-                    <ServicesCard title='MERN Website' num="05" />
+                    <ServicesCard title='MERN Website' num="05" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 5' />
                 </div>
                 <div>
-                    <ServicesCard title='Bug Fixing' num="06" />
+                    <ServicesCard title='Bug Fixing' num="06" page=' Lorem ipsum dolor sit amet consectetur adipisicing elit. 6' />
                 </div>
 
             </div>
