@@ -28,7 +28,22 @@ const Skills = () => {
                             <SkillsCard title="CSS" image="/image/css.svg" percent="97%" />
                         </div>
                         <div>
-                            <SkillsCard title="JavaScript" image="/image/jss.png" percent="97%" />
+                            <SkillsCard title="JavaScript" image="/image/jss.png" percent="77%" />
+                        </div>
+                        <div>
+                            <SkillsCard title="TypeScript" image="/image/jss.png" percent="67%" />
+                        </div>
+                        <div>
+                            <SkillsCard title="HTML" image="/image/jss.png" percent="88%" />
+                        </div>
+                        <div>
+                            <SkillsCard title="Node Js" image="/image/jss.png" percent="97%" />
+                        </div>
+                        <div>
+                            <SkillsCard title="MongoDB" image="/image/jss.png" percent="97%" />
+                        </div>
+                        <div>
+                            <SkillsCard title="React-nat" image="/image/jss.png" percent="97%" />
                         </div>
                     </div>
                 </div>
