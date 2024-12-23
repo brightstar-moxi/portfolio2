@@ -20,7 +20,9 @@ const ServicesCard = ({ num, title }: Props) => {
     (iconMapping as Record<string,React.ElementType>)[num] || CommandLineIcon;
     return (
         <div className='bg-black custom_service z-[100] relative transform rounded-2xl 
-         text-center p-6 shadow-md'>ruyeyueuyeer</div>
+         text-center p-6 shadow-md'>
+            <IconComponent className=""/>
+         </div>
     )
 }
 
