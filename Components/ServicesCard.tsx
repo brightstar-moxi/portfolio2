@@ -21,7 +21,11 @@ const ServicesCard = ({ num, title }: Props) => {
     return (
         <div className='bg-black custom_service z-[100] relative transform rounded-2xl 
          text-center p-6 shadow-md'>
-            <IconComponent className=""/>
+            <IconComponent className="w-[5rem] relative z-[-1] mx-auto h-[rem]"/>
+            <h1 className='text-[25px] relative z-[1] text-white mt-[1rem]'>
+                {title}
+                </h1>
+                <p></p>
          </div>
     )
 }
