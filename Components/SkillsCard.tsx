@@ -9,7 +9,7 @@ interface Props {
 
 const SkillsCard = ({ image, title, percent }: Props) => {
     return (
-        <div className='p-6 hover:bg-orange-500 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-900'>
+        <div className='p-6 hover:bg-purple-900 duration-300 transition-all cursor-pointer text-center rounded-lg bg-gray-900'>
             <Image src={`${image}`} alt={title} width={80} height={80} className='object-cover mx-auto' />
             <h1 className='text-[18px] mt-[1rem] text-white font-[600]'>{title}</h1>
             <div className='bg-black mt-[1rem] rounded-lg p-2 text-white opacity-40'>{percent}</div>
