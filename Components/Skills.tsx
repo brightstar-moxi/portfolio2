@@ -31,19 +31,19 @@ const Skills = () => {
                             <SkillsCard title="JavaScript" image="/image/jss.png" percent="77%" />
                         </div>
                         <div>
-                            <SkillsCard title="TypeScript" image="/image/jss.png" percent="67%" />
+                            <SkillsCard title="TypeScript" image="/image/ts.png" percent="67%" />
                         </div>
                         <div>
-                            <SkillsCard title="HTML" image="/image/jss.png" percent="88%" />
+                            <SkillsCard title="HTML" image="/image/html.png" percent="88%" />
                         </div>
                         <div>
                             <SkillsCard title="Node Js" image="/image/jss.png" percent="97%" />
                         </div>
                         <div>
-                            <SkillsCard title="MongoDB" image="/image/jss.png" percent="97%" />
+                            <SkillsCard title="MongoDB" image="/image/mm.png" percent="97%" />
                         </div>
                         <div>
-                            <SkillsCard title="React-nat" image="/image/jss.png" percent="97%" />
+                            <SkillsCard title="React-nat" image="/image/python.png" percent="97%" />
                         </div>
                     </div>
                 </div>
