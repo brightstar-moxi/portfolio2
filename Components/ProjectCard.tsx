@@ -22,7 +22,13 @@ const ProjectCard = ({image, title, tech1, tech2, tech3, tech4}: Props) => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
              quasi aperiam delectus obcaecati nobis deleniti ullam nemo laboriosam
               quod libero autem amet velit quaerat, animi, esse sit a vel perferendis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+             quasi aperiam delectus obcaecati nobis deleniti ullam nemo laboriosam
+              quod libero autem amet velit quaerat, animi, esse sit a vel perferendis?
               </p>
+              <div className='mt-[1.3rem] grid-cols-2 grid sm:grid-cols-3 xl:grid-cols-4 gap-[2rem]'>
+                <h1>{tech1}</h1>
+              </div>
     </div>
     </div>
   )
