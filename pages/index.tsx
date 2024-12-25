@@ -2,6 +2,7 @@ import About from '@/Components/About';
 import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav'
 import NavMobile from '@/Components/NavMobile';
+import Project from '@/Components/Project';
 import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
 import React, { useState } from 'react';
@@ -21,6 +22,7 @@ const HomePage = () => {
       <About/>
       <Services/>
       <Skills/>
+      <Project/>
     </div>
   )
 }
