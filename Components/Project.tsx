@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectCard from './ProjectCard'
 
 const Project = () => {
     return (
@@ -7,6 +8,7 @@ const Project = () => {
                 <p className='heading_mini'>Recent Works</p>
                 <h1 className='heading_primary'>My Best <span className='text-yellow-400'>Projects</span></h1>
             </div>
+            <ProjectCard title="E-commerce Website" tech1="React" tech2="Next JS" tech3="Tailwind" tech4="JavaScript" image="/image/"/>
         </div>
     )
 }
