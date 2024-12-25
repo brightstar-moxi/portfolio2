@@ -16,6 +16,14 @@ const ProjectCard = ({image, title, tech1, tech2, tech3, tech4}: Props) => {
     <div className='p-4 rounded-xl relative cursor-pointer hover:-rotate-6 transition-all duration-200 bg-gray-800 shadow-md'>
         <Image src={`${image}`} alt={title} width={500} height={500} className='object-contain rounded-xl mx-auto shadow-md'/>
     </div>
+    <div>
+        <h1 className='text-[25px] text-white'>{title}</h1>
+        <p className='text-white opacity-65 text-[15px] mt-[1rem]'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+             quasi aperiam delectus obcaecati nobis deleniti ullam nemo laboriosam
+              quod libero autem amet velit quaerat, animi, esse sit a vel perferendis?
+              </p>
+    </div>
     </div>
   )
 }
