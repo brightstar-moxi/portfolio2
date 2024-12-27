@@ -2,6 +2,7 @@ import About from '@/Components/About';
 import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav'
 import NavMobile from '@/Components/NavMobile';
+import PriceTable from '@/Components/PriceTable';
 import Project from '@/Components/Project';
 import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Services/>
       <Skills/>
       <Project/>
+      <PriceTable/>
     </div>
   )
 }
