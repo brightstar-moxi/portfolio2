@@ -9,7 +9,11 @@ interface Props{
 
 const PriceCard = ({plan,bg,save,price}:Props) => {
   return (
-    <div>PriceCard</div>
+    <div className='text-center rounded-lg bg-gray-900'>
+        <div className={`p-6 rounded-t-lg ${bg}`}>
+            <h1 className='text-white text-[30px]'>{plan}</h1>
+        </div>
+    </div>
   )
 }
 
