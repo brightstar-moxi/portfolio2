@@ -1,3 +1,4 @@
+import { CheckIcon } from '@heroicons/react/20/solid';
 import React from 'react'
 
 interface Props{
@@ -17,9 +18,15 @@ const PriceCard = ({plan,bg,save,price}:Props) => {
         <span className='text-yellow-400'>{save}</span>
        </p>
        <div className='flex justify-center items-end mt-[1rem] space-x-1'>
-        <h1 className=''>{price}</h1>
-        <p>/Hour</p>
+        <h1 className='text-[40px] font-bold text-yellow-500'>{price}</h1>
+        <p className='text-white'>/Hour</p>
        </div>
+        </div>
+        <div className='p-6'>
+            <div className='flex items-center space-x-3'>
+                <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+                <p className='text-[17px] text-white opacity-80'>Next JS Website</p>
+            </div>
         </div>
     </div>
   )
