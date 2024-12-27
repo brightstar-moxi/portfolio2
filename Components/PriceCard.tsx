@@ -16,6 +16,10 @@ const PriceCard = ({plan,bg,save,price}:Props) => {
         Try out {plan} Plan Save{" "}
         <span className='text-yellow-400'>{save}</span>
        </p>
+       <div className='flex justify-center items-end mt-[1rem] space-x-1'>
+        <h1 className=''>{price}</h1>
+        <p>/Hour</p>
+       </div>
         </div>
     </div>
   )
