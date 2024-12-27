@@ -25,6 +25,22 @@ const PriceCard = ({plan,bg,save,price}:Props) => {
         <div className='p-6'>
             <div className='flex items-center space-x-3'>
                 <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+                <p className='text-[17px] text-white opacity-80'>Next JS WebApp</p>
+            </div>
+            <div className='flex items-center space-x-3'>
+                <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+                <p className='text-[17px] text-white opacity-80'>React JS WebApp</p>
+            </div>
+            <div className='flex items-center space-x-3'>
+                <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+                <p className='text-[17px] text-white opacity-80'>Fullstack JS WebApp</p>
+            </div>
+            <div className='flex items-center space-x-3'>
+                <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+                <p className='text-[17px] text-white opacity-80'>Authentication </p>
+            </div> 
+            <div className='flex items-center space-x-3'>
+                <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
                 <p className='text-[17px] text-white opacity-80'>Next JS Website</p>
             </div>
         </div>
