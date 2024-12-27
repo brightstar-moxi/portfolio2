@@ -27,7 +27,7 @@ const PriceCard = ({plan,bg,save,price}:Props) => {
                 <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
                 <p className='text-[17px] text-white opacity-80'>Next JS WebApp</p>
             </div>
-            <div className='flex items-center space-x-3'>
+            <div className='flex items-center mt-[1rem] mb-[1rem] space-x-3'>
                 <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
                 <p className='text-[17px] text-white opacity-80'>React JS WebApp</p>
             </div>
@@ -35,7 +35,7 @@ const PriceCard = ({plan,bg,save,price}:Props) => {
                 <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
                 <p className='text-[17px] text-white opacity-80'>Fullstack JS WebApp</p>
             </div>
-            <div className='flex items-center space-x-3'>
+            <div className='flex items-center space-x-3 mt-[1rem] mb-[1rem]'>
                 <CheckIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
                 <p className='text-[17px] text-white opacity-80'>Authentication </p>
             </div> 
