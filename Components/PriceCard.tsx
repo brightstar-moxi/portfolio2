@@ -1,6 +1,13 @@
 import React from 'react'
 
-const PriceCard = () => {
+interface Props{
+    plan:string;
+    save: string;
+    price: string;
+    bg:string;
+}
+
+const PriceCard = ({plan,bg,save,price}:Props) => {
   return (
     <div>PriceCard</div>
   )
