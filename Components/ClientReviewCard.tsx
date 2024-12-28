@@ -22,18 +22,22 @@ const ClientReviewCard = ({ image, role, user }: Props) => {
                 <div>
                     <SparklesIcon className='w-[6rem] h-[6rem] text-white opacity-15 fixed' />
                 </div>
-<p className='text-[15px] text-white opacity-65 mt-[3rem] text-center'>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis,
-     similique laborum blanditiis deleniti ab amet error cumque velit neque enim 
-    tempore vitae vero libero minima incidunt iusto assumenda veniam!
-</p>
-<div className='flex items-center space-x-1 justify-center mt-[0.4rem]'>
-    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
-    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
-    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
-    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
-    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
-</div>
+                <p className='text-[15px] text-white opacity-65 mt-[3rem] text-center'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis,
+                    similique laborum blanditiis deleniti ab amet error cumque velit neque enim
+                    tempore vitae vero libero minima incidunt iusto assumenda veniam!
+                </p>
+                <div className='flex items-center space-x-1 justify-center mt-[0.4rem]'>
+                    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400' />
+                    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400' />
+                    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400' />
+                    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400' />
+                    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400' />
+                    
+                </div>
+                <div>
+                        <SparklesIcon className='w-[6rem] right-0 h-[6rem] text-white opacity-15 fixed' />
+                    </div>
             </div>
         </div>
     )
