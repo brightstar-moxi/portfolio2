@@ -22,7 +22,7 @@ const ClientReviewCard = ({ image, role, user }: Props) => {
                 <div>
                     <SparklesIcon className='w-[6rem] h-[6rem] text-white opacity-15 fixed' />
                 </div>
-<p className=''>
+<p className='text-[15px] text-white opacity-65 mt-[3rem] text-center'>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non veritatis,
      similique laborum blanditiis deleniti ab amet error cumque velit neque enim 
     tempore vitae vero libero minima incidunt iusto assumenda veniam!
