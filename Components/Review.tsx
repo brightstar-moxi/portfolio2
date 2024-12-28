@@ -2,7 +2,12 @@ import React from 'react'
 
 const Review = () => {
   return (
-    <div className='pt-[5rem] pb-[3rem] bg-gray-900'>Review</div>
+    <div className='pt-[5rem] pb-[3rem] bg-gray-900'>
+        <div className='text-center'>
+            <div className='heading_mini'>Client Reviews</div>
+            <h1 className='heading_primary'>I've <span className='text-yellow-400'>40+</span> Clients Feedback</h1>
+        </div>
+    </div>
   )
 }
 
