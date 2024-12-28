@@ -34,6 +34,16 @@ const ReviewSlider = () => {
    itemClass='item'
    >
     <ClientReviewCard image="/image/CODER.jpeg" user="bright bright" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="bright moxiz" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="ifeoluwa llllt" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="miracle joy" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="precious peter" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="babajoko mefo" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="lola dara" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="paul Stone" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="Collins opeyemi" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="Daniel cool" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="love lovet" role="Software Developer"/>
    </Carousel>
   )
 }
