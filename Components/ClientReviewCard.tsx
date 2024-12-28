@@ -1,6 +1,12 @@
 import React from 'react'
 
-const ClientReviewCard = () => {
+interface Props {
+    image:string;
+    user:string;
+    role:string;
+}
+
+const ClientReviewCard = ({image,role,user}:Props) => {
   return (
     <div>ClientReviewCard</div>
   )
