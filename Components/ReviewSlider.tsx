@@ -33,7 +33,7 @@ const ReviewSlider = () => {
    infinite
    itemClass='item'
    >
-    <ClientReviewCard image="/images/CODER.jpeg" user="bright bright" role="Software Developer"/>
+    <ClientReviewCard image="/image/CODER.jpeg" user="bright bright" role="Software Developer"/>
    </Carousel>
   )
 }
