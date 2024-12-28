@@ -1,4 +1,4 @@
-import { SparklesIcon } from '@heroicons/react/20/solid';
+import { SparklesIcon, StarIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
 import React from 'react'
 
@@ -27,7 +27,13 @@ const ClientReviewCard = ({ image, role, user }: Props) => {
      similique laborum blanditiis deleniti ab amet error cumque velit neque enim 
     tempore vitae vero libero minima incidunt iusto assumenda veniam!
 </p>
-
+<div className='flex items-center space-x-1 justify-center mt-[0.4rem]'>
+    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+    <StarIcon className='w-[1.4rem] h-[1.4rem] text-yellow-400'/>
+</div>
             </div>
         </div>
     )
