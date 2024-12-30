@@ -11,7 +11,12 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque eius, tenetur excepturi accusamus est, nulla 
                 maxime earum ad iure error fugiat expedita sit? Minus porro veniam numquam fuga doloribus.
                 </p>
-                <h1 className=''>+1 234 56 7890</h1>
+                <h1 className='mt-[2rem] mb-[2rem] text-[30px] text-yellow-400 underline font-bold'>+1 234 56 7890</h1>
+            </div>
+            <div>
+                <div className='grid grid-cols-1 sm:grid-cols-2 gap-[1rem] items-center'>
+                    <input type="text" placeholder='Name'/>
+                </div>
             </div>
         </div>
     </div>
