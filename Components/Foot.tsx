@@ -2,7 +2,9 @@ import React from 'react'
 
 const Foot = () => {
   return (
-    <div>Foot</div>
+    <div className='pt-[3rem] pb-[3rem] bg-black'>
+        <div></div>
+    </div>
   )
 }
 
