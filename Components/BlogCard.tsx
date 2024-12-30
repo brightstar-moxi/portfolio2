@@ -27,7 +27,10 @@ const BlogCard = ({image, title, comment, date}:Props) => {
                 <CalendarIcon className='w-[1rem] h-[1rem] text-yellow-400'/>
                 <p className='text-white text-[14px] opacity-85'>{date}</p>
             </div>
-            <h1 className='text-[20px] opacity-85 hover:text-yellow-400 transition-all duration-200 cursor-pointer text-white font-semibold'>{title}</h1>
+            <h1 className='text-[20px] opacity-85 hover:text-yellow-400 transition-all duration-200 cursor-pointer text-white font-semibold underline'>{title}</h1>
+            <div className='flex items-center mt-[2rem] justify-between'>
+                <div className=''></div>
+            </div>
         </div>
     </div>
   )
