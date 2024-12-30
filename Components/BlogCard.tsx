@@ -33,7 +33,7 @@ const BlogCard = ({image, title, comment, date}:Props) => {
                     <ChatBubbleLeftRightIcon className='w-[1.2rem] h-[1.2rem] text-yellow-400'/>
                     <p className='text-[15px] text-white opacity-85'>{comment} Comment</p>
                 </div>
-                <button className=''>Read More</button>
+                <button className='text-[15px] hover:text-yellow-500 transition-all duration-150 text-white font-semibold underline'>Read More</button>
             </div>
         </div>
     </div>

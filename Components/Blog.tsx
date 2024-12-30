@@ -12,6 +12,12 @@ const Blog = () => {
             <div>
                 <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
                 </div>
+                <div>
+                <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
+                </div>
+                <div>
+                <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
+                </div>
         </div>
     </div>
   )
