@@ -1,4 +1,4 @@
-import { CalendarIcon } from '@heroicons/react/20/solid';
+import { CalendarIcon, ChatBubbleLeftRightIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
 import React from 'react'
 
@@ -29,7 +29,10 @@ const BlogCard = ({image, title, comment, date}:Props) => {
             </div>
             <h1 className='text-[20px] opacity-85 hover:text-yellow-400 transition-all duration-200 cursor-pointer text-white font-semibold underline'>{title}</h1>
             <div className='flex items-center mt-[2rem] justify-between'>
-                <div className=''></div>
+                <div className=' flex items-center space-x-3'>
+                    <ChatBubbleLeftRightIcon className='w-[1.2rem] h-[1.2rem] text-yellow-400'/>
+                    <p className='text-[15px] text-white opacity-85'>{comment}</p>
+                </div>
             </div>
         </div>
     </div>
