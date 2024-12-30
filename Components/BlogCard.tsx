@@ -31,8 +31,9 @@ const BlogCard = ({image, title, comment, date}:Props) => {
             <div className='flex items-center mt-[2rem] justify-between'>
                 <div className=' flex items-center space-x-3'>
                     <ChatBubbleLeftRightIcon className='w-[1.2rem] h-[1.2rem] text-yellow-400'/>
-                    <p className='text-[15px] text-white opacity-85'>{comment}</p>
+                    <p className='text-[15px] text-white opacity-85'>{comment} Comment</p>
                 </div>
+                <button className=''>Read More</button>
             </div>
         </div>
     </div>
