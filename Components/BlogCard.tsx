@@ -1,6 +1,13 @@
 import React from 'react'
 
-const BlogCard = () => {
+interface Props{
+    image:string;
+    title:string;
+    comment:string;
+    date:string;
+}
+
+const BlogCard = ({image, title, comment, date}:Props) => {
   return (
     <div>BlogCard</div>
   )
