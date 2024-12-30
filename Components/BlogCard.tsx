@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 interface Props{
@@ -9,7 +10,17 @@ interface Props{
 
 const BlogCard = ({image, title, comment, date}:Props) => {
   return (
-    <div>BlogCard</div>
+    <div className='bg-gray-900'>
+        <div>
+            <Image
+            src={`${image}`}
+            alt='blog'
+            width={300}
+            height={300}
+            className='object-cover w-[100%] h-[100%]'
+            />
+        </div>
+    </div>
   )
 }
 
