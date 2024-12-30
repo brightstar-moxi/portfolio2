@@ -10,6 +10,7 @@ import React, { useState } from 'react';
 import Review from '../Components/Review';
 import Blog from '@/Components/Blog';
 import Contact from '@/Components/Contact';
+import Foot from '@/Components/Foot';
 
 
 const HomePage = () => {
@@ -21,16 +22,17 @@ const HomePage = () => {
   return (
     <div className='overflow-hidden '>
       <NavMobile showNav={showNav} closeNav={closeNavHandler} />
-      <Nav openNav={showNavHandler}/>
-      <Hero/>
-      <About/>
-      <Services/>
-      <Skills/>
-      <Project/>
-      <PriceTable/>
-      <Review/>
-      <Blog/>
-      <Contact/>
+      <Nav openNav={showNavHandler} />
+      <Hero />
+      <About />
+      <Services />
+      <Skills />
+      <Project />
+      <PriceTable />
+      <Review />
+      <Blog />
+      <Contact />
+      <Foot />
     </div>
   )
 }
