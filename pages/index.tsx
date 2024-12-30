@@ -8,6 +8,7 @@ import Services from '@/Components/Services';
 import Skills from '@/Components/Skills';
 import React, { useState } from 'react';
 import Review from '../Components/Review';
+import Blog from '@/Components/Blog';
 
 
 const HomePage = () => {
@@ -27,6 +28,7 @@ const HomePage = () => {
       <Project/>
       <PriceTable/>
       <Review/>
+      <Blog/>
     </div>
   )
 }
