@@ -20,7 +20,7 @@ const Contact = () => {
                     </div>
                     <input type="text" placeholder='Subject' className='py-[0.7rem] mb-[1.5rem] mt-[1.5rem] w-full outline-none text-white bg-gray-800 rounded-md px-4' />
                     <textarea placeholder='Message' className='py-[0.7rem] mb-[1.5rem] w-full outline-none text-white bg-gray-800 rounded-md px-4' rows={4} ></textarea>
-                    <button className='py-[0.7rem] mb-[1.5rem] mt-[1.5rem] w-full outline-none text-white bg-gray-800 rounded-md px-4'>Submit</button>
+                    <button className='py-[0.7rem] mb-[1.5rem]  w-full outline-none text-white bg-blue-700 hover:bg-blue-800 rounded-md px-4'>Submit</button>
                 </div>
             </div>
         </div>
