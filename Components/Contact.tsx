@@ -15,8 +15,11 @@ const Contact = () => {
             </div>
             <div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-[1rem] items-center'>
-                    <input type="text" placeholder='Name'/>
+                <input type="text" placeholder='Name' className='py-[0.7rem] outline-none text-white bg-gray-800 rounded-md px-4'/>
+                <input type="email" placeholder='Email' className='py-[0.7rem] outline-none text-white bg-gray-800 rounded-md px-4'/>
                 </div>
+                <input type="text" placeholder='Subject' className='py-[0.7rem] mt-[1.5rem] w-full outline-none text-white bg-gray-800 rounded-md px-4'/>
+
             </div>
         </div>
     </div>
