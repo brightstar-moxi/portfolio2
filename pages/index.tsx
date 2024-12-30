@@ -9,6 +9,7 @@ import Skills from '@/Components/Skills';
 import React, { useState } from 'react';
 import Review from '../Components/Review';
 import Blog from '@/Components/Blog';
+import Contact from '@/Components/Contact';
 
 
 const HomePage = () => {
@@ -29,6 +30,7 @@ const HomePage = () => {
       <PriceTable/>
       <Review/>
       <Blog/>
+      <Contact/>
     </div>
   )
 }
