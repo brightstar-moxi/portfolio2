@@ -8,7 +8,7 @@ const Hero = () => {
             <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
                     <div>
-                        <h1 className='text-[#c4cfde] mb-[1.3rem]'>WELCOME TO BRIGHTSTAR WORLD</h1>
+                        <h1 data-aos='fade-right' className='text-[#c4cfde] mb-[1.3rem]'>WELCOME TO BRIGHTSTAR WORLD</h1>
                         <div>
                             <h1 className='xl-text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white'>
                                 Hi, I'm <span className='text-yellow-300'>Brightstar</span></h1>
