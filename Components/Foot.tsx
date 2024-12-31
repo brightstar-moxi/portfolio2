@@ -17,6 +17,10 @@ const Foot = () => {
                 <div className='md:mx-auto'>
                     <h1 className='text-white font-semibold mb-[1.4rem] text-[17px]'>Quick Link</h1>
                     <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>About</p>
+                    <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>Services</p>
+                    <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>Project</p>
+                    <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>Contact</p>
+                    <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>Address</p>
                 </div>
             </div>
         </div>
