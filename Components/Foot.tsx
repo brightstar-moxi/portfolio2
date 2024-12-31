@@ -1,4 +1,4 @@
-import { MapIcon } from '@heroicons/react/20/solid'
+import { EnvelopeIcon, MapIcon, PhoneIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 
 const Foot = () => {
@@ -28,6 +28,14 @@ const Foot = () => {
                 <div className='flex items-center mt-[1rem] space-x-2'>
                     <MapIcon className='w-[1rem] h-[1rem] text-yellow-400'/>
                     <p className='text-[17px] font-normal text-white opacity-75'>Ibadan city, Nigeria</p>
+                </div>
+                <div className='flex items-center mt-[1rem] space-x-2'>
+                    <EnvelopeIcon className='w-[1rem] h-[1rem] text-yellow-400'/>
+                    <p className='text-[17px] font-normal text-white opacity-75'>example@gmail.com</p>
+                </div>
+                <div className='flex items-center mt-[1rem] space-x-2'>
+                    <PhoneIcon className='w-[1rem] h-[1rem] text-yellow-400'/>
+                    <p className='text-[17px] font-normal text-white opacity-75'>+01 234 567 890</p>
                 </div>
                 </div>
             </div>
