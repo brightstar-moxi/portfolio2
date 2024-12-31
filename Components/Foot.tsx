@@ -1,3 +1,4 @@
+import { MapIcon } from '@heroicons/react/20/solid'
 import React from 'react'
 
 const Foot = () => {
@@ -24,6 +25,10 @@ const Foot = () => {
                 </div>
                 <div className='lg:mx-auto'>
                     <h1 className='text-white font-semibold mb-[1.4rem] text-[17px]'>Address</h1>
+                <div className='flex items-center mt-[1rem] space-x-2'>
+                    <MapIcon/>
+                    <p></p>
+                </div>
                 </div>
             </div>
         </div>
