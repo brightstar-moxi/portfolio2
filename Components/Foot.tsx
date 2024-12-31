@@ -23,7 +23,7 @@ const Foot = () => {
                     <p className='text-[15px] text-white opacity-80 mb-[1rem] cursor-pointer hover:text-yellow-400'>Address</p>
                 </div>
                 <div className='lg:mx-auto'>
-                    <h1 className='text-white'>Address</h1>
+                    <h1 className='text-white font-semibold mb-[1.4rem] text-[17px]'>Address</h1>
                 </div>
             </div>
         </div>
