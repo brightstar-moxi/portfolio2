@@ -23,7 +23,12 @@ const HomePage = () => {
 
   // animation
   useEffect(()=>{
-
+AOS.init({
+  duration:1000,
+  easing:'ease',
+  once:true,
+  anchorPlacement:'top-bottom'
+})
   },[])
 
   return (
