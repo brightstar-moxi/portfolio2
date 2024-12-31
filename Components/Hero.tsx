@@ -9,13 +9,13 @@ const Hero = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
                     <div>
                         <h1 data-aos='fade-right' className='text-[#c4cfde] mb-[1.3rem]'>WELCOME TO BRIGHTSTAR WORLD</h1>
-                        <div>
+                        <div data-aos='fade-right' data-aos-delay='400'>
                             <h1 className='xl-text-[50px] lg:text-[40px] sm:text-[35px] text-[25px] font-semibold leading-[2.6rem] text-white'>
                                 Hi, I'm <span className='text-yellow-300'>Brightstar</span></h1>
                             <TypeWriteEffect />
 
                         </div>
-                        <p className='mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]'>
+                        <p data-aos='fade-up' data-aos-delay='800' className='mt-[1.2rem] text-[15px] md:text-[17px] text-[#c4cfde]'>
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
                             natus perferendis. Veritatis exercitationem voluptatum molestias in
                             nam quis aut neque animi ratione, cumque perferendis laudantium porro
