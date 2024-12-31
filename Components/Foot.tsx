@@ -26,8 +26,8 @@ const Foot = () => {
                 <div className='lg:mx-auto'>
                     <h1 className='text-white font-semibold mb-[1.4rem] text-[17px]'>Address</h1>
                 <div className='flex items-center mt-[1rem] space-x-2'>
-                    <MapIcon/>
-                    <p></p>
+                    <MapIcon className='w-[1rem] h-[1rem] text-yellow-400'/>
+                    <p className='text-[17px] font-normal text-white opacity-75'>Ibadan city, Nigeria</p>
                 </div>
                 </div>
             </div>
