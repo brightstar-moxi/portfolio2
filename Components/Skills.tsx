@@ -21,28 +21,28 @@ const Skills = () => {
                 </div>
                 <div className='col-span-4'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-[1rem] items-center'>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' >
                             <SkillsCard title="React" image="/image/rr.png" percent="90%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="200">
                             <SkillsCard title="CSS" image="/image/css.svg" percent="97%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="400">
                             <SkillsCard title="JavaScript" image="/image/jss.png" percent="77%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="600">
                             <SkillsCard title="TypeScript" image="/image/tss.png" percent="67%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="800">
                             <SkillsCard title="HTML" image="/image/html.png" percent="88%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="1000">
                             <SkillsCard title="Node Js" image="/image/node.png" percent="97%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="1200">
                             <SkillsCard title="MongoDB" image="/image/mm.png" percent="97%" />
                         </div>
-                        <div>
+                        <div data-aos='flip-in' data-aos-anchor-placement='top-center' data-aos-delay="1400">
                             <SkillsCard title="Python" image="/image/python.png" percent="97%" />
                         </div>
                     </div>
