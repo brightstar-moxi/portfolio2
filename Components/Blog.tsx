@@ -9,14 +9,14 @@ const Blog = () => {
             <h1 className='heading_primary'>My Latest <span className='text-yellow-400'>Blog</span> and News</h1>
         </div>
         <div className='w-[80%] mx-auto pt-[3rem] md:pt-[5rem] grid grid-cols-1 lg:grid-cols-3 items-center gap-[2rem]'>
-            <div>
+            <div data-aos='zoom-in' data-aos-anchor-placement='top-bottom' >
                 <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
                 </div>
-                <div>
-                <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
+                <div data-aos='zoom-in' data-aos-anchor-placement='top-bottom' data-aos-delay="200">
+                <BlogCard title="FullStack Developer Backup" comment="8" date="24 January 2024" image="/image/code.jpg"/>
                 </div>
-                <div>
-                <BlogCard title="FullStack Developer Backup" comment="4" date="24 January 2024" image="/image/code.jpg"/>
+                <div data-aos='zoom-in' data-aos-anchor-placement='top-bottom' data-aos-delay="400">
+                <BlogCard title="FullStack Developer Backup" comment="12" date="24 January 2024" image="/image/code.jpg"/>
                 </div>
         </div>
     </div>
